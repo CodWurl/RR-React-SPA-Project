@@ -1,18 +1,21 @@
-import React from 'react'
-//import { useSelector} from 'react-redux'
-
-function NavBar() {
-    const mode = useSelector (state => state);
-
-
-    return (
-        <div className="NavBar">
-            <NavBar content="Blog" />
-            <NavBar content="About Me" />
-            <NavBar content="Projects" />
-            <NavBar content="contact" />
-        </div>
-    )
-};
-
-export default NavBar
+import React from 'react';
+import {  Link } from "react-router-dom";
+const navBar= () =>{
+  return (
+  <div>
+    <li>
+      <Link to="/">Blog</Link>
+    </li>
+    <li>
+      <Link to="/cats">About Me</Link>
+    </li>
+    <li>
+      <Link to="/sheeps">Projects</Link>
+    </li>
+    <li>
+      <Link to="/goats">Other</Link>
+    </li>
+  </div>
+  );
+}
+export default navBar;
