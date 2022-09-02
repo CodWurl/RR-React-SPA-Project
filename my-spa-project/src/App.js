@@ -17,10 +17,8 @@ function App() {
   
   return (
     <div>
-      <button type="button" onClick ={onModeChange}>Toggle Mode</button>
       <Nav />
-      <ContentWrapper />
-      <Footer />
+      
     </div>
   );
 }
