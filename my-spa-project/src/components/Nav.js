@@ -9,12 +9,15 @@ function Nav() {
 
 
     return (
-        <div class = "topnav">
+        <div>
             <NavLink content="Home" />
             <NavLink content="About Me" />
             <NavLink content="Projects" />
             <NavLink content="Other" />
+
+            
         </div>
+        
     )
 }
 
