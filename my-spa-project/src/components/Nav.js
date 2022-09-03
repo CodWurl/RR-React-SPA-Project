@@ -9,7 +9,7 @@ function Nav() {
 
     return (
         <div>
-            <NavLink content="Blog" />
+            <NavLink content="Home" />
             <NavLink content="About Me" />
             <NavLink content="Projects" />
             <NavLink content="Other" />

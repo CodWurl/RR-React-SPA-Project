@@ -7,7 +7,7 @@ function NavLink(props) {
     const mode = useSelector (state => state);
 
     return (
-        <div className="NavLink" style={{'backgroundColor': mode.color3}}>
+        <div className="NavLink">
             <p>{props.content}</p>
         </div>
     )
